@@ -31,8 +31,7 @@ body {
 /* ================================
    HEADER
    ================================ */
-header {
-    position: fixed;       /* Keeps header visible when scrolling */
+header {       /* Keeps header visible when scrolling */
     top: 0;
     left: 0;
     width: 100%;
@@ -41,7 +40,6 @@ header {
     text-align: center;
     padding: 35px 0;
     box-shadow: 0 4px 8px var(--shadow-strong);
-    animation: slideDown 1s ease-out;
     z-index: 1000;
 }
 
